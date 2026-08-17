@@ -1,0 +1,1463 @@
+{
+  "total_apps": 100,
+  "categories": {
+    "CRM and Sales": 12,
+    "Support and Helpdesk": 10,
+    "Communications and Messaging": 10,
+    "Marketing, Ads, Email and Social": 10,
+    "Ecommerce": 9,
+    "Data, SEO and Scraping": 9,
+    "Developer, Infra and Data Platforms": 10,
+    "Productivity and Project Management": 10,
+    "Finance and Fintech": 10,
+    "AI, Research and Media-native": 10
+  },
+  "auth_methods": {
+    "OAuth 2.0": 12,
+    "unknown": 17,
+    "OAuth": 19,
+    "API Key": 16,
+    "SAML/OIDC SSO": 1,
+    "API keys": 4,
+    "API Keys": 3,
+    "API Token": 3,
+    "Basic Authentication": 2,
+    "SAML Single Sign-On": 1,
+    "JWT authentication": 1,
+    "Bearer Token (API Key)": 2,
+    "SAML-based SSO": 1,
+    "Account SID": 1,
+    "Auth Token": 1,
+    "OAuth2": 8,
+    "API ID and Hash": 1,
+    "Bot Token": 1,
+    "Secure Remote Password (SRP) protocol": 1,
+    "Two-factor authentication": 1,
+    "Bearer Token": 4,
+    "System User Access Token": 1,
+    "Business Integration System User Access Token": 1,
+    "API Secret": 1,
+    "JWT": 2,
+    "Private Key": 1,
+    "Access Token": 1,
+    "OAuth 2.0 (3-legged)": 1,
+    "OAuth 2": 1,
+    "Private key authentication": 1,
+    "Public key authentication": 1,
+    "API Key (Bearer token)": 1,
+    "Access tokens": 1,
+    "Consumer Key": 1,
+    "Consumer Secret": 1,
+    "X-Auth-Token": 1,
+    "OAuth 2.1": 2,
+    "Adobe Developer Console credentials": 1,
+    "AIO CLI authentication": 1,
+    "REST API tokens": 1,
+    "GraphQL authentication": 1,
+    "Access tokens (secret_token and public_token)": 1,
+    "Personal access token": 1,
+    "GitHub App": 1,
+    "OAuth token": 1,
+    "GITHUB_TOKEN (in GitHub Actions)": 1,
+    "API Tokens": 1,
+    "Personal Access Token (PAT)": 2,
+    "Email and Password": 1,
+    "Passwordless": 1,
+    "Native auth provider (username/password)": 1,
+    "LDAP": 1,
+    "OpenID Connect (OIDC)": 1,
+    "Kerberos": 1,
+    "Custom-built plugin auth providers": 1,
+    "Key-pair authentication": 1,
+    "Federated authentication/SSO": 1,
+    "Password": 1,
+    "Service account access tokens (OAuth 2.0)": 1,
+    "API keys (HTTP Digest Authentication)": 1,
+    "Application Keys": 1,
+    "Static API token": 1,
+    "Personal access tokens": 1,
+    "Personal Access Tokens (PATs)": 1,
+    "Personal API keys": 1,
+    "API tokens": 1,
+    "shortLivedToken": 1,
+    "Personal API Token": 1,
+    "Bearer": 1,
+    "Personal Access Token": 2,
+    "API keys (Secret keys, Restricted keys)": 1,
+    "client_id": 1,
+    "secret": 1,
+    "Secret Key": 1,
+    "API token": 1,
+    "Google Account": 1,
+    "SSO (Okta, Microsoft Entra ID, SAML, OIDC)": 1,
+    "OAuth/Browser-based sign-in": 1
+  },
+  "self_serve_status": {
+    "unknown": 15,
+    "self_serve": 71,
+    "paid_required": 7,
+    "contact_sales": 5,
+    "admin_required": 1,
+    "trial": 1
+  },
+  "api_types": {
+    "REST": 80,
+    "SOAP": 1,
+    "GraphQL": 11,
+    "Bulk API": 1,
+    "MCP": 11,
+    "SDK": 29,
+    "webhook": 20,
+    "webhooks": 1,
+    "SMTP": 2,
+    "unknown": 4,
+    "WebSocket": 2,
+    "MTProto": 1,
+    "Graph API": 1,
+    "CLI": 13,
+    "Webhook": 4,
+    "SCAPI": 1,
+    "JavaScript API": 1,
+    "Forge": 1,
+    "Node.JS API": 1
+  },
+  "api_breadth": {
+    "broad": 75,
+    "moderate": 10,
+    "unknown": 12,
+    "narrow": 3
+  },
+  "mcp_available": {
+    "unclear": 36,
+    "yes": 41,
+    "no": 23
+  },
+  "agent_ready": {
+    "yes_with_setup": 15,
+    "yes": 72,
+    "unclear": 9,
+    "no": 4
+  },
+  "confidence": {
+    "high": 89,
+    "low": 6,
+    "medium": 5
+  },
+  "top_blockers": [
+    {
+      "blocker": "None",
+      "count": 19
+    },
+    {
+      "blocker": "API access and permissions depend on the Salesforce edition and org configuration.",
+      "count": 1
+    },
+    {
+      "blocker": "None identified for general API usage; however, specific advanced features may require higher-tier paid subscriptions.",
+      "count": 1
+    },
+    {
+      "blocker": "API, SDK, and MCP server access are restricted to the Pro plan and above, requiring a paid subscription.",
+      "count": 1
+    },
+    {
+      "blocker": "None; the platform is designed for extensibility and includes native MCP support for AI agents.",
+      "count": 1
+    },
+    {
+      "blocker": "The provided documentation lacks specific details regarding developer API access, authentication protocols, and self-serve credential provisioning.",
+      "count": 1
+    },
+    {
+      "blocker": "None; the platform provides self-serve access to APIs and AI agent building tools.",
+      "count": 1
+    },
+    {
+      "blocker": "The provided documentation mentions the existence of an API and SDK but does not provide developer documentation, authentication methods, or instructions on how to obtain API credentials.",
+      "count": 1
+    },
+    {
+      "blocker": "Requires a specific 'DealCloud with Celeste' license and administrative setup to enable MCP servers.",
+      "count": 1
+    },
+    {
+      "blocker": "None; the platform provides extensive APIs and developer documentation for building integrations.",
+      "count": 1
+    },
+    {
+      "blocker": "None; the platform is designed for AI agent integration and provides APIs for custom automation.",
+      "count": 1
+    },
+    {
+      "blocker": "None; the platform provides self-serve access and explicitly supports MCP integration.",
+      "count": 1
+    },
+    {
+      "blocker": "The API documentation and specific authentication methods for developers are not detailed in the provided materials, and advanced API usage (rate limits) requires contacting sales.",
+      "count": 1
+    },
+    {
+      "blocker": "The platform is enterprise-focused and requires a Pylon account with Member or Admin seat access to utilize the MCP server.",
+      "count": 1
+    },
+    {
+      "blocker": "None identified; the platform provides API keys for external integration and supports automation via AI features.",
+      "count": 1
+    }
+  ],
+  "easy_wins": [
+    {
+      "id": 2,
+      "name": "HubSpot",
+      "category": "CRM and Sales",
+      "auth": [
+        "unknown"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "name": "Pipedrive",
+      "category": "CRM and Sales",
+      "auth": [
+        "OAuth"
+      ],
+      "api": [
+        "REST",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "name": "Attio",
+      "category": "CRM and Sales",
+      "auth": [
+        "OAuth 2.0",
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "webhook",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "auth": [
+        "OAuth",
+        "SAML/OIDC SSO"
+      ],
+      "api": [
+        "REST",
+        "GraphQL",
+        "webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "name": "Zoho CRM",
+      "category": "CRM and Sales",
+      "auth": [
+        "unknown"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "name": "Close",
+      "category": "CRM and Sales",
+      "auth": [
+        "API keys",
+        "OAuth"
+      ],
+      "api": [
+        "REST",
+        "webhooks"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "auth": [
+        "OAuth",
+        "API Keys"
+      ],
+      "api": [
+        "REST",
+        "GraphQL",
+        "SDK"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "auth": [
+        "OAuth",
+        "API Token",
+        "Basic Authentication"
+      ],
+      "api": [
+        "REST",
+        "SDK"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 12,
+      "name": "Intercom",
+      "category": "Support and Helpdesk",
+      "auth": [
+        "unknown"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "name": "Freshdesk",
+      "category": "Support and Helpdesk",
+      "auth": [
+        "SAML Single Sign-On",
+        "JWT authentication"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 15,
+      "name": "Pylon",
+      "category": "Support and Helpdesk",
+      "auth": [
+        "OAuth 2.0"
+      ],
+      "api": [
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "name": "Plain",
+      "category": "Support and Helpdesk",
+      "auth": [
+        "Bearer Token (API Key)"
+      ],
+      "api": [
+        "GraphQL",
+        "SDK",
+        "webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 18,
+      "name": "Help Scout",
+      "category": "Support and Helpdesk",
+      "auth": [
+        "OAuth",
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 21,
+      "name": "Slack",
+      "category": "Communications and Messaging",
+      "auth": [
+        "OAuth",
+        "SAML-based SSO"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 22,
+      "name": "Twilio",
+      "category": "Communications and Messaging",
+      "auth": [
+        "Account SID",
+        "Auth Token",
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "SMTP"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 25,
+      "name": "Pumble",
+      "category": "Communications and Messaging",
+      "auth": [
+        "API keys"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 26,
+      "name": "Discord",
+      "category": "Communications and Messaging",
+      "auth": [
+        "OAuth2"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "WebSocket"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "name": "Telegram",
+      "category": "Communications and Messaging",
+      "auth": [
+        "API ID and Hash",
+        "Bot Token",
+        "Secure Remote Password (SRP) protocol",
+        "Two-factor authentication"
+      ],
+      "api": [
+        "REST",
+        "MTProto"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 28,
+      "name": "WhatsApp Business",
+      "category": "Communications and Messaging",
+      "auth": [
+        "Bearer Token",
+        "System User Access Token",
+        "Business Integration System User Access Token"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 30,
+      "name": "Vonage",
+      "category": "Communications and Messaging",
+      "auth": [
+        "API Key",
+        "API Secret",
+        "JWT",
+        "Private Key"
+      ],
+      "api": [
+        "REST",
+        "SDK"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "auth": [
+        "OAuth2"
+      ],
+      "api": [
+        "REST",
+        "SDK"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 32,
+      "name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "auth": [
+        "OAuth",
+        "Access Token"
+      ],
+      "api": [
+        "REST",
+        "Graph API"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 35,
+      "name": "Mailchimp",
+      "category": "Marketing, Ads, Email and Social",
+      "auth": [
+        "OAuth 2",
+        "API keys"
+      ],
+      "api": [
+        "REST",
+        "GraphQL",
+        "SMTP",
+        "webhook"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 36,
+      "name": "Klaviyo",
+      "category": "Marketing, Ads, Email and Social",
+      "auth": [
+        "Private key authentication",
+        "OAuth",
+        "Public key authentication"
+      ],
+      "api": [
+        "REST",
+        "SDK"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 39,
+      "name": "Threads",
+      "category": "Marketing, Ads, Email and Social",
+      "auth": [
+        "OAuth 2.0"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "category": "Marketing, Ads, Email and Social",
+      "auth": [
+        "API Key (Bearer token)"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "webhook"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "auth": [
+        "OAuth",
+        "Access tokens"
+      ],
+      "api": [
+        "REST",
+        "GraphQL",
+        "CLI",
+        "Webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 42,
+      "name": "WooCommerce",
+      "category": "Ecommerce",
+      "auth": [
+        "Consumer Key",
+        "Consumer Secret"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 43,
+      "name": "BigCommerce",
+      "category": "Ecommerce",
+      "auth": [
+        "OAuth",
+        "X-Auth-Token",
+        "Bearer Token"
+      ],
+      "api": [
+        "REST",
+        "GraphQL"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 45,
+      "name": "Magento / Adobe Commerce",
+      "category": "Ecommerce",
+      "auth": [
+        "Adobe Developer Console credentials",
+        "AIO CLI authentication",
+        "REST API tokens",
+        "GraphQL authentication"
+      ],
+      "api": [
+        "REST",
+        "GraphQL",
+        "Webhook",
+        "SDK",
+        "CLI"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 46,
+      "name": "Squarespace",
+      "category": "Ecommerce",
+      "auth": [
+        "OAuth",
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 47,
+      "name": "Ecwid",
+      "category": "Ecommerce",
+      "auth": [
+        "OAuth 2.0",
+        "Access tokens (secret_token and public_token)"
+      ],
+      "api": [
+        "REST",
+        "JavaScript API"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 51,
+      "name": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "auth": [
+        "Basic Authentication"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 53,
+      "name": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "auth": [
+        "OAuth 2.0",
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 54,
+      "name": "MrScraper",
+      "category": "Data, SEO and Scraping",
+      "auth": [
+        "API Token"
+      ],
+      "api": [
+        "REST",
+        "CLI",
+        "SDK",
+        "webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 55,
+      "name": "Apify",
+      "category": "Data, SEO and Scraping",
+      "auth": [
+        "API Token",
+        "OAuth"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "CLI"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 56,
+      "name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "auth": [
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "CLI",
+        "SDK"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 57,
+      "name": "Bright Data",
+      "category": "Data, SEO and Scraping",
+      "auth": [
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "Webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 58,
+      "name": "Sherlock",
+      "category": "Data, SEO and Scraping",
+      "auth": [],
+      "api": [
+        "CLI"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 60,
+      "name": "Clay",
+      "category": "Data, SEO and Scraping",
+      "auth": [
+        "unknown"
+      ],
+      "api": [
+        "REST",
+        "CLI"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 61,
+      "name": "GitHub",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "Personal access token",
+        "GitHub App",
+        "OAuth token",
+        "GITHUB_TOKEN (in GitHub Actions)"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 62,
+      "name": "Vercel",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "API Tokens"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 63,
+      "name": "Netlify",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "OAuth2",
+        "Personal Access Token (PAT)"
+      ],
+      "api": [
+        "REST",
+        "SDK"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 64,
+      "name": "Cloudflare",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "Bearer Token",
+        "API Key"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 65,
+      "name": "Supabase",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "API Keys",
+        "OAuth",
+        "Email and Password",
+        "Passwordless"
+      ],
+      "api": [
+        "REST",
+        "GraphQL",
+        "SDK"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 66,
+      "name": "Neo4j",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "Native auth provider (username/password)",
+        "LDAP",
+        "OpenID Connect (OIDC)",
+        "Kerberos",
+        "Custom-built plugin auth providers"
+      ],
+      "api": [
+        "REST",
+        "SDK"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 67,
+      "name": "Snowflake",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "OAuth",
+        "Key-pair authentication",
+        "Federated authentication/SSO",
+        "Password"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "CLI"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 68,
+      "name": "MongoDB Atlas",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "Service account access tokens (OAuth 2.0)",
+        "API keys (HTTP Digest Authentication)"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "CLI"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 69,
+      "name": "Datadog",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "OAuth2",
+        "API Keys",
+        "Application Keys"
+      ],
+      "api": [
+        "REST",
+        "SDK"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 70,
+      "name": "Sentry",
+      "category": "Developer, Infra and Data Platforms",
+      "auth": [
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 71,
+      "name": "Notion",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "Static API token",
+        "OAuth 2.0",
+        "Personal access tokens"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 72,
+      "name": "Airtable",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "OAuth",
+        "Personal Access Tokens (PATs)"
+      ],
+      "api": [
+        "MCP",
+        "CLI"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 73,
+      "name": "Linear",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "OAuth 2.0",
+        "Personal API keys"
+      ],
+      "api": [
+        "GraphQL",
+        "SDK",
+        "webhook"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 74,
+      "name": "Jira",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "unknown"
+      ],
+      "api": [
+        "REST",
+        "Forge"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 75,
+      "name": "Asana",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "Personal Access Token (PAT)",
+        "OAuth"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 76,
+      "name": "Monday.com",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "OAuth2",
+        "API tokens",
+        "shortLivedToken"
+      ],
+      "api": [
+        "GraphQL",
+        "webhook",
+        "SDK"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 77,
+      "name": "ClickUp",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "Personal API Token",
+        "OAuth 2.0"
+      ],
+      "api": [
+        "REST",
+        "webhook",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 78,
+      "name": "Coda",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "Bearer"
+      ],
+      "api": [
+        "REST",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 79,
+      "name": "Smartsheet",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "OAuth"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "Webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 80,
+      "name": "Harvest",
+      "category": "Productivity and Project Management",
+      "auth": [
+        "Personal Access Token",
+        "OAuth2"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 81,
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "auth": [
+        "API keys (Secret keys, Restricted keys)"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 82,
+      "name": "Plaid",
+      "category": "Finance and Fintech",
+      "auth": [
+        "client_id",
+        "secret"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 83,
+      "name": "Binance",
+      "category": "Finance and Fintech",
+      "auth": [
+        "API Key",
+        "Secret Key"
+      ],
+      "api": [
+        "REST",
+        "WebSocket"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 86,
+      "name": "QuickBooks",
+      "category": "Finance and Fintech",
+      "auth": [
+        "OAuth2"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 88,
+      "name": "Brex",
+      "category": "Finance and Fintech",
+      "auth": [
+        "OAuth",
+        "API token"
+      ],
+      "api": [
+        "REST",
+        "webhook"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 89,
+      "name": "Ramp",
+      "category": "Finance and Fintech",
+      "auth": [
+        "OAuth 2.0",
+        "API Key"
+      ],
+      "api": [
+        "REST"
+      ],
+      "mcp": "unclear",
+      "confidence": "high"
+    },
+    {
+      "id": 95,
+      "name": "Reducto",
+      "category": "AI, Research and Media-native",
+      "auth": [
+        "API Key"
+      ],
+      "api": [
+        "REST",
+        "SDK",
+        "CLI"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 96,
+      "name": "Devin",
+      "category": "AI, Research and Media-native",
+      "auth": [
+        "API Key",
+        "Personal Access Token",
+        "SSO (Okta, Microsoft Entra ID, SAML, OIDC)"
+      ],
+      "api": [
+        "REST",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 97,
+      "name": "Higgsfield",
+      "category": "AI, Research and Media-native",
+      "auth": [
+        "OAuth/Browser-based sign-in"
+      ],
+      "api": [
+        "MCP",
+        "CLI"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 98,
+      "name": "Mermaid CLI",
+      "category": "AI, Research and Media-native",
+      "auth": [],
+      "api": [
+        "CLI",
+        "Node.JS API"
+      ],
+      "mcp": "no",
+      "confidence": "high"
+    },
+    {
+      "id": 99,
+      "name": "YouTube Transcript",
+      "category": "AI, Research and Media-native",
+      "auth": [
+        "Bearer Token (API Key)",
+        "OAuth 2.1"
+      ],
+      "api": [
+        "REST",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    },
+    {
+      "id": 100,
+      "name": "Grain",
+      "category": "AI, Research and Media-native",
+      "auth": [
+        "unknown"
+      ],
+      "api": [
+        "REST",
+        "MCP"
+      ],
+      "mcp": "yes",
+      "confidence": "high"
+    }
+  ],
+  "needs_setup_or_blocked": [
+    {
+      "id": 1,
+      "name": "Salesforce",
+      "agent_ready": "yes_with_setup",
+      "blocker": "API access and permissions depend on the Salesforce edition and org configuration."
+    },
+    {
+      "id": 6,
+      "name": "Podio",
+      "agent_ready": "unclear",
+      "blocker": "The provided documentation lacks specific details regarding developer API access, authentication protocols, and self-serve credential provisioning."
+    },
+    {
+      "id": 9,
+      "name": "Copper",
+      "agent_ready": "no",
+      "blocker": "The provided documentation mentions the existence of an API and SDK but does not provide developer documentation, authentication methods, or instructions on how to obtain API credentials."
+    },
+    {
+      "id": 14,
+      "name": "Front",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The API documentation and specific authentication methods for developers are not detailed in the provided materials, and advanced API usage (rate limits) requires contacting sales."
+    },
+    {
+      "id": 16,
+      "name": "LiveAgent",
+      "agent_ready": "yes_with_setup",
+      "blocker": "None identified; the platform provides API keys for external integration and supports automation via AI features."
+    },
+    {
+      "id": 19,
+      "name": "Gorgias",
+      "agent_ready": "unclear",
+      "blocker": "The provided documentation does not contain information regarding developer API access, authentication methods, or public documentation for building integrations."
+    },
+    {
+      "id": 20,
+      "name": "Gladly",
+      "agent_ready": "no",
+      "blocker": "No public API documentation or developer portal is available; the platform is enterprise-focused and requires a demo/sales contact."
+    },
+    {
+      "id": 23,
+      "name": "Zoho Cliq",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The provided documentation lacks specific technical details regarding API authentication protocols and endpoint documentation."
+    },
+    {
+      "id": 24,
+      "name": "Lark",
+      "agent_ready": "unclear",
+      "blocker": "Insufficient documentation provided to determine authentication, API capabilities, or self-serve access."
+    },
+    {
+      "id": 29,
+      "name": "Aircall",
+      "agent_ready": "unclear",
+      "blocker": "The provided documentation focuses on product-level features and integrations rather than developer-facing API documentation, authentication methods, or credential access procedures."
+    },
+    {
+      "id": 33,
+      "name": "LinkedIn Ads",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The API requires a formal application process, and for many features, a Technical Sign Off process involving the LinkedIn Business Development team."
+    },
+    {
+      "id": 34,
+      "name": "GoHighLevel",
+      "agent_ready": "unclear",
+      "blocker": "The provided documentation is a landing page (Stoplight) that does not contain specific details regarding API authentication, access requirements, or functional capabilities."
+    },
+    {
+      "id": 37,
+      "name": "systeme.io",
+      "agent_ready": "unclear",
+      "blocker": "The documentation mentions a 'Public API' link, but provides no technical details, authentication methods, or developer access instructions."
+    },
+    {
+      "id": 38,
+      "name": "Pinterest",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The documentation does not explicitly detail the authentication flow or the specific approval process required for developers to access the API."
+    },
+    {
+      "id": 44,
+      "name": "Salesforce Commerce Cloud",
+      "agent_ready": "yes_with_setup",
+      "blocker": "SCAPI access requires a B2C Commerce environment and appropriate API client configuration."
+    },
+    {
+      "id": 48,
+      "name": "Gumroad",
+      "agent_ready": "unclear",
+      "blocker": "The provided documentation is a landing page that does not contain specific details regarding authentication, API capabilities, or developer access requirements."
+    },
+    {
+      "id": 49,
+      "name": "Amazon Selling Partner API",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The registration process and authorization requirements for the Selling Partner API are complex and require specific developer account setup."
+    },
+    {
+      "id": 50,
+      "name": "fanbasis",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The platform is positioned as an enterprise-grade financial infrastructure, suggesting that API access may require business verification or sales contact rather than immediate self-serve developer access."
+    },
+    {
+      "id": 52,
+      "name": "SE Ranking",
+      "agent_ready": "yes_with_setup",
+      "blocker": "API usage depends on the account plan, API credits and subscription limits."
+    },
+    {
+      "id": 59,
+      "name": "Waterfall.io",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The platform requires a sales-led 'Book a Call' process to obtain access, rather than a public self-serve developer portal."
+    },
+    {
+      "id": 84,
+      "name": "Paygent Connect",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The platform is designed for enterprise/B2B partners (ISOs, SaaS vendors) and requires a commercial agreement and sales contact to access developer credentials."
+    },
+    {
+      "id": 85,
+      "name": "iPayX",
+      "agent_ready": "unclear",
+      "blocker": "The provided documentation contains no information regarding API availability, developer access, or technical integration methods."
+    },
+    {
+      "id": 87,
+      "name": "Xero",
+      "agent_ready": "yes_with_setup",
+      "blocker": "Prohibition on using API data to train or contribute to the creation of any AI or machine learning model."
+    },
+    {
+      "id": 90,
+      "name": "PitchBook",
+      "agent_ready": "unclear",
+      "blocker": "The provided documentation does not contain information regarding public API access, developer documentation, or authentication methods."
+    },
+    {
+      "id": 91,
+      "name": "NotebookLM",
+      "agent_ready": "no",
+      "blocker": "NotebookLM is a consumer-facing application and does not currently offer a public developer API or integration platform for AI agents."
+    },
+    {
+      "id": 92,
+      "name": "Otter AI",
+      "agent_ready": "yes_with_setup",
+      "blocker": "The API is currently limited to specific Zapier-based triggers and actions, and access is restricted to paid subscription tiers."
+    },
+    {
+      "id": 93,
+      "name": "Fathom",
+      "agent_ready": "yes_with_setup",
+      "blocker": "Lack of detailed public developer documentation regarding authentication and specific API endpoints."
+    },
+    {
+      "id": 94,
+      "name": "Consensus",
+      "agent_ready": "no",
+      "blocker": "No public API documentation or developer portal is available in the provided materials."
+    }
+  ]
+}

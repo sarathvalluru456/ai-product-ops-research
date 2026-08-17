@@ -1,0 +1,38 @@
+[
+  {
+    "app_id": 28,
+    "app_name": "WhatsApp Business",
+    "stage": "retrieval",
+    "error": "No documentation could be retrieved."
+  },
+  {
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "stage": "retrieval",
+    "error": "No documentation could be retrieved."
+  },
+  {
+    "app_id": 39,
+    "app_name": "Threads",
+    "stage": "retrieval",
+    "error": "No documentation could be retrieved."
+  },
+  {
+    "app_id": 44,
+    "app_name": "Salesforce Commerce Cloud",
+    "stage": "retrieval",
+    "error": "No documentation could be retrieved."
+  },
+  {
+    "app_id": 52,
+    "app_name": "SE Ranking",
+    "stage": "retrieval",
+    "error": "No documentation could be retrieved."
+  },
+  {
+    "app_id": 90,
+    "app_name": "PitchBook",
+    "stage": "retrieval",
+    "error": "No documentation could be retrieved."
+  }
+]

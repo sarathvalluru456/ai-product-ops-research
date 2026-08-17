@@ -1,0 +1,122 @@
+[
+  {
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "result": "MATCH",
+    "notes": "OAuth 2.0 and REST API claims are supported by official Salesforce documentation."
+  },
+  {
+    "app_id": 2,
+    "app_name": "HubSpot",
+    "result": "PARTIAL",
+    "notes": "REST API and self-serve directionally supported, but the agent marked authentication as unknown and used weak product-page evidence."
+  },
+  {
+    "app_id": 11,
+    "app_name": "Zendesk",
+    "result": "MATCH",
+    "notes": "Official docs confirm OAuth, API tokens, and legacy Basic authentication."
+  },
+  {
+    "app_id": 12,
+    "app_name": "Intercom",
+    "result": "MISS",
+    "notes": "Agent marked authentication as unknown. Official docs explicitly document Access Tokens for private apps and OAuth for public integrations."
+  },
+  {
+    "app_id": 21,
+    "app_name": "Slack",
+    "result": "PARTIAL",
+    "notes": "OAuth and REST/webhook capabilities are directionally supported, but the supplied evidence is weak for the detailed authentication claim."
+  },
+  {
+    "app_id": 22,
+    "app_name": "Twilio",
+    "result": "PARTIAL",
+    "notes": "Account SID/Auth Token are valid authentication concepts, but the agent's API surface and evidence mix Twilio with SendGrid."
+  },
+  {
+    "app_id": 31,
+    "app_name": "Google Ads",
+    "result": "PARTIAL",
+    "notes": "OAuth2 is supported, but the research should also account for the Google Ads developer token requirement."
+  },
+  {
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "result": "MATCH",
+    "notes": "OAuth/access tokens and Graph API are supported; MCP evidence is present."
+  },
+  {
+    "app_id": 41,
+    "app_name": "Shopify",
+    "result": "MATCH",
+    "notes": "OAuth/access tokens, GraphQL/REST and MCP-related tooling are supported."
+  },
+  {
+    "app_id": 42,
+    "app_name": "WooCommerce",
+    "result": "MATCH",
+    "notes": "Consumer key/consumer secret authentication and REST API are supported by official documentation."
+  },
+  {
+    "app_id": 51,
+    "app_name": "DataForSEO",
+    "result": "MATCH",
+    "notes": "Official documentation confirms REST API and Basic Authentication."
+  },
+  {
+    "app_id": 53,
+    "app_name": "Ahrefs",
+    "result": "MATCH",
+    "notes": "Official documentation supports OAuth 2.0, API access and MCP."
+  },
+  {
+    "app_id": 61,
+    "app_name": "GitHub",
+    "result": "MATCH",
+    "notes": "REST API and multiple token/application authentication methods are supported."
+  },
+  {
+    "app_id": 62,
+    "app_name": "Vercel",
+    "result": "MATCH",
+    "notes": "REST API and API-token authentication are supported."
+  },
+  {
+    "app_id": 71,
+    "app_name": "Notion",
+    "result": "MATCH",
+    "notes": "Notion provides API authentication using tokens and OAuth."
+  },
+  {
+    "app_id": 72,
+    "app_name": "Airtable",
+    "result": "MATCH",
+    "notes": "Airtable documents MCP and developer authentication mechanisms."
+  },
+  {
+    "app_id": 81,
+    "app_name": "Stripe",
+    "result": "MATCH",
+    "notes": "Stripe API keys and REST API are supported."
+  },
+  {
+    "app_id": 82,
+    "app_name": "Plaid",
+    "result": "MATCH",
+    "notes": "Client ID/secret, REST API and webhooks are supported; Sandbox provides developer access."
+  },
+  {
+    "app_id": 91,
+    "app_name": "NotebookLM",
+    "result": "MATCH",
+    "notes": "The agent correctly identified the lack of a normal public API/toolkit path in the supplied evidence and treated it as not currently buildable."
+  },
+  {
+    "app_id": 92,
+    "app_name": "Otter AI",
+    "result": "PARTIAL",
+    "notes": "The supplied evidence is primarily about Zapier rather than directly proving the complete API/MCP surface."
+  }
+]
